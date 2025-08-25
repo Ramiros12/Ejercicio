@@ -1,0 +1,51 @@
+.tabla {
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed; /* todas las celdas mismo ancho */
+}
+.tabla td {
+    width: 5.5%; /* 18 columnas */
+    height: 80px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #ccc;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo de cada celda con elemento */
+.elemento {
+    padding: 5px;
+    border-radius: 8px;
+    transition: all 0.2s ease-in-out;
+}
+.elemento .numero {
+    font-size: 0.7em;
+    color: #444;
+}
+.elemento .simbolo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.elemento .nombre {
+    font-size: 0.8em;
+}
+
+/* Colores por categoría */
+.no-metal { background-color: #a8e6cf; }
+.metaloide { background-color: #d1c4e9; }
+.actinido { background-color: #e7c941ce; }
+.gas-noble { background-color: #ffd3b6; }
+.alcalino { background-color: #ffaaa5; }
+.alcalinoterreo { background-color: #dcedc1; }
+.halogeno { background-color: #a09899; }
+.transicion { background-color: #82d7ff; }
+.posttransicion { background-color: #c382ff; }
+.lantanido { background-color: #82ffcf; }
+
+/* Interactividad */
+.elemento:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    background-color: #333;
+    color: white;
+}
