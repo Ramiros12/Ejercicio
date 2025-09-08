@@ -1,1 +1,151 @@
-//asd
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" crossorigin>
+
+  <!-- Tipografía -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="css/styles.css" />
+
+  <title>Portal de Noticias</title>
+</head>
+<body>
+  <!-- Encabezado -->
+  <header class="main-header">
+    <div class="wrapper header-inner">
+      <h1>Portal de Noticias</h1>
+      <p class="tagline">Resumen diario de la actualidad</p>
+    </div>
+  </header>
+
+  <!-- Navegación -->
+  <nav class="main-nav">
+    <div class="wrapper">
+      <ul class="nav-list">
+        <li><a href="#" class="active">Inicio</a></li>
+        <li><a href="#">Noticias</a></li>
+        <li><a href ="#">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Contenido principal -->
+  <main class="wrapper content">
+    <section class="intro">
+      <h2>Bienvenido</h2>
+      <p>
+        Aquí encontrarás una selección de noticias con sus fuentes y fechas. 
+        Abajo verás una tabla con tres titulares principales y, más adelante, 
+        tarjetas con resúmenes rápidos.
+      </p>
+    </section>
+
+    <!-- Tabla de noticias -->
+    <section class="tabla-noticias">
+      <h3>Titulares del día</h3>
+
+      <!-- contenedor para scroll horizontal en pantallas pequeñas -->
+      <div class="tabla-scroll">
+        <table>
+          <thead>
+            <tr>
+              <th>Título de la noticia</th>
+              <th>Fecha</th>
+              <th>Fuente</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Avance tecnológico impulsa la educación en línea</td>
+              <td>07/09/2025</td>
+              <td>EduTech Diario</td>
+            </tr>
+            <tr>
+              <td>Nuevas medidas ambientales para ciudades sostenibles</td>
+              <td>06/09/2025</td>
+              <td>Planeta Hoy</td>
+            </tr>
+            <tr>
+              <td>Economía regional muestra señales de recuperación</td>
+              <td>05/09/2025</td>
+              <td>Reporte Financiero</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Tarjetas -->
+    <section class="grid-noticias">
+      <h3>Más noticias</h3>
+
+      <div class="cards">
+        <!-- Card 1 -->
+        <div class="card">
+          <div class="card-media">
+            <img src="https://picsum.photos/600/400?random=1" alt="Ilustración de aprendizaje en línea">
+          </div>
+          <div class="card-body">
+            <h4>Educación virtual en crecimiento</h4>
+            <p>Plataformas interactivas y realidad aumentada mejoran la experiencia de los estudiantes.</p>
+            <a href="#" class="card-link">Leer más</a>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="card">
+          <div class="card-media">
+            <img src="https://picsum.photos/600/400?random=2" alt="Parque urbano con paneles solares">
+          </div>
+          <div class="card-body">
+            <h4>Ciudades verdes</h4>
+            <p>Proyectos de energía limpia y transporte público reducen la huella de carbono.</p>
+            <a href="#" class="card-link">Leer más</a>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="card">
+          <div class="card-media">
+            <img src="https://picsum.photos/600/400?random=3" alt="Gráfica económica en pantalla">
+          </div>
+          <div class="card-body">
+            <h4>Señales positivas en el mercado</h4>
+            <p>Los indicadores macroeconómicos muestran una tendencia de recuperación sostenida.</p>
+            <a href="#" class="card-link">Leer más</a>
+          </div>
+        </div>
+
+        <!-- Card 4 (extra, opcional) -->
+        <div class="card">
+          <div class="card-media">
+            <img src="https://picsum.photos/600/400?random=4" alt="Centro de datos moderno">
+          </div>
+          <div class="card-body">
+            <h4>Innovación en la nube</h4>
+            <p>Nuevos centros de datos prometen mejores tiempos de respuesta y seguridad.</p>
+            <a href="#" class="card-link">Leer más</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Pie de página -->
+  <footer class="main-footer">
+    <div class="wrapper footer-inner">
+      <p>© 2025 Portal de Noticias — Todos los derechos reservados.</p>
+      <ul class="social">
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">X/Twitter</a></li>
+        <li><a href="#">Instagram</a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>
