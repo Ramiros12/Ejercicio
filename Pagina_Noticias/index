@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="style.css" crossorigin>
+  <link rel="stylesheet" href="diseño.css" crossorigin>
 
   <!-- Tipografía -->
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,14 +12,14 @@
   <!-- Estilos -->
   <link rel="stylesheet" href="css/styles.css" />
 
-  <title>Portal de Noticias</title>
+  <title>Portal de Noticias Gamer</title>
 </head>
 <body>
   <!-- Encabezado -->
   <header class="main-header">
     <div class="wrapper header-inner">
-      <h1>Portal de Noticias</h1>
-      <p class="tagline">Resumen diario de la actualidad</p>
+      <h1>Portal de Noticias -Gamers</h1>
+      <p class="tagline">Los juegos mas esperados del año 2025 y posteriores</p>
     </div>
   </header>
 
@@ -39,41 +39,42 @@
     <section class="intro">
       <h2>Bienvenido</h2>
       <p>
-        Aquí encontrarás una selección de noticias con sus fuentes y fechas. 
-        Abajo verás una tabla con tres titulares principales y, más adelante, 
-        tarjetas con resúmenes rápidos.
+        Aquí encontrarás noticias actualizadas, avances, análisis detallados 
+        y fechas de lanzamiento de los videojuegos más esperados del año.
+        Desde superproducciones AAA hasta joyas indie que prometen sorprender, 
+        cubrimos todo el universo del gaming con pasión y objetividad
       </p>
     </section>
 
     <!-- Tabla de noticias -->
     <section class="tabla-noticias">
-      <h3>Titulares del día</h3>
+      <h3>Los mas esperados</h3>
 
       <!-- contenedor para scroll horizontal en pantallas pequeñas -->
       <div class="tabla-scroll">
         <table>
           <thead>
             <tr>
-              <th>Título de la noticia</th>
-              <th>Fecha</th>
+              <th>Juego</th>
+              <th>Fecha de Lanzamiento</th>
               <th>Fuente</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td>Avance tecnológico impulsa la educación en línea</td>
-              <td>07/09/2025</td>
-              <td>EduTech Diario</td>
+              <td>Hollow Knigth: Silksong</td>
+              <td>04/09/2025</td>
+              <td>Vandal</td>
             </tr>
             <tr>
-              <td>Nuevas medidas ambientales para ciudades sostenibles</td>
-              <td>06/09/2025</td>
-              <td>Planeta Hoy</td>
+              <td>Grand Theft Auto VI</td>
+              <td>2/03/202</td>
+              <td>Rockstar Games</td>
             </tr>
             <tr>
-              <td>Economía regional muestra señales de recuperación</td>
-              <td>05/09/2025</td>
-              <td>Reporte Financiero</td>
+              <td>Borderlands 4</td>
+              <td>12/09/2025</td>
+              <td>Borderlands Official Website</td>
             </tr>
           </tbody>
         </table>
@@ -82,17 +83,17 @@
 
     <!-- Tarjetas -->
     <section class="grid-noticias">
-      <h3>Más noticias</h3>
+      <h3>Otros lanzamientos</h3>
 
       <div class="cards">
         <!-- Card 1 -->
         <div class="card">
           <div class="card-media">
-            <img src="https://picsum.photos/600/400?random=1" alt="Ilustración de aprendizaje en línea">
+            <img src="https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/software/switch/70010000084766/1bcf06d845f9027b4330e8d07658845a2fe3d66882bdaeb70325aeb35c54f1c9" alt="Ilustración de aprendizaje en línea">
           </div>
           <div class="card-body">
-            <h4>Educación virtual en crecimiento</h4>
-            <p>Plataformas interactivas y realidad aumentada mejoran la experiencia de los estudiantes.</p>
+            <h4>Metroid Prime 4: Beyond</h4>
+            <p>Nuevo juego de acción en primera persona con Samus Aran y habilidades psíquicas, ambientado en un planeta misterioso.</p>
             <a href="#" class="card-link">Leer más</a>
           </div>
         </div>
@@ -100,11 +101,11 @@
         <!-- Card 2 -->
         <div class="card">
           <div class="card-media">
-            <img src="https://picsum.photos/600/400?random=2" alt="Parque urbano con paneles solares">
+            <img src="https://i.ytimg.com/vi_webp/iNX8QCeymFM/maxresdefault.webp" alt="Parque urbano con paneles solares">
           </div>
           <div class="card-body">
-            <h4>Ciudades verdes</h4>
-            <p>Proyectos de energía limpia y transporte público reducen la huella de carbono.</p>
+            <h4>Metal Gear Solid Delta: Snake Eater</h4>
+            <p>Remake moderno de Snake Eater con gráficos mejorados y modo multijugador, ambientado en la Guerra Fría.</p>
             <a href="#" class="card-link">Leer más</a>
           </div>
         </div>
@@ -112,11 +113,11 @@
         <!-- Card 3 -->
         <div class="card">
           <div class="card-media">
-            <img src="https://picsum.photos/600/400?random=3" alt="Gráfica económica en pantalla">
+            <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1449110/0130c9add6d097099cc7796a04def57bee93e58d/capsule_616x353.jpg?t=1756377774" alt="Gráfica económica en pantalla">
           </div>
           <div class="card-body">
-            <h4>Señales positivas en el mercado</h4>
-            <p>Los indicadores macroeconómicos muestran una tendencia de recuperación sostenida.</p>
+            <h4>The Outer Worlds 2</h4>
+            <p>RPG de ciencia ficción donde exploras un sistema estelar controlado por megacorporaciones con decisiones que afectan la historia.</p>
             <a href="#" class="card-link">Leer más</a>
           </div>
         </div>
@@ -124,11 +125,11 @@
         <!-- Card 4 (extra, opcional) -->
         <div class="card">
           <div class="card-media">
-            <img src="https://picsum.photos/600/400?random=4" alt="Centro de datos moderno">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7uV2JKRIR0_I2duJI2PnvnKaxlY9urzbezA&s" alt="Centro de datos moderno">
           </div>
           <div class="card-body">
-            <h4>Innovación en la nube</h4>
-            <p>Nuevos centros de datos prometen mejores tiempos de respuesta y seguridad.</p>
+            <h4>Ghost of Yōtei</h4>
+            <p>Secuela espiritual de Ghost of Tsushima (2020), ambientada 300 años después, en la región de Hokkaido (antes conocida como Ezo).</p>
             <a href="#" class="card-link">Leer más</a>
           </div>
         </div>
@@ -149,3 +150,4 @@
   </footer>
 </body>
 </html>
+
