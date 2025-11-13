@@ -1,0 +1,133 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #0a0a0f;
+  color: #eee;
+  margin: 0;
+  padding: 0;
+}
+ 
+#login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+}
+ 
+#login-container h2 {
+  margin-bottom: 20px;
+  color: #00ffe5;
+}
+ 
+#login-container input {
+  margin: 8px;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  width: 250px;
+}
+ 
+#login-container button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #00ffe5;
+  color: #000;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+ 
+header {
+  background-color: #111;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ 
+header h1 {
+  color: #00ffe5;
+}
+ 
+header button {
+  background-color: #00ffe5;
+  color: #000;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+ 
+main {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+ 
+#catalogo-productos {
+  flex: 3;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+}
+ 
+.producto {
+  background-color: #1a1a1f;
+  padding: 15px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 0 8px #00ffe550;
+  transition: transform 0.2s;
+}
+ 
+.producto:hover {
+  transform: scale(1.03);
+}
+ 
+.producto img {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+}
+ 
+.producto h3 {
+  font-size: 1em;
+  margin: 10px 0;
+}
+ 
+.btn-agregar {
+  background-color: #00ffe5;
+  border: none;
+  padding: 8px;
+  width: 100%;
+  border-radius: 6px;
+  cursor: pointer;
+  color: #000;
+  font-weight: bold;
+}
+ 
+#carrito {
+  flex: 1;
+  background-color: #111;
+  padding: 15px;
+  border-radius: 10px;
+}
+ 
+#carrito h2 {
+  color: #00ffe5;
+}
+ 
+.item-carrito {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0;
+}
+ 
+#carrito-total {
+  margin-top: 15px;
+  font-size: 1.1em;
+  color: #00ffe5;
+}
+ 
