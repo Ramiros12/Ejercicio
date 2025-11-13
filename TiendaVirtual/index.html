@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda Gamer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+  <!-- LOGIN -->
+  <div id="login-container">
+    <h2>🎮 Iniciar sesión</h2>
+    <input type="text" id="username" placeholder="Correo electrónico o usuario">
+    <input type="password" id="password" placeholder="Contraseña">
+    <button id="login-btn">Ingresar</button>
+  </div>
+ 
+  <!-- CONTENIDO PRINCIPAL -->
+  <div id="main-container" style="display:none;">
+    <header>
+      <h1>🕹️ Tienda Gamer</h1>
+      <button id="logout-btn">Cerrar sesión</button>
+    </header>
+ 
+    <main>
+      <section id="catalogo-productos"></section>
+      <aside id="carrito">
+        <h2>🛒 Carrito</h2>
+        <div id="carrito-items"></div>
+        <p id="carrito-total">Total: $0.00</p>
+      </aside>
+    </main>
+  </div>
+ 
+  <script src="app.js"></script>
+</body>
+</html>
+ 
